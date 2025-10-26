@@ -1,6 +1,6 @@
 ## Web Template with Nextjs + Django
 
-简单的网页项目模版，技术栈为 Nextjs + Django；已包含简单的用户模型和 jAccount 流程登录
+简单的网页项目模版，技术栈为 Nextjs + Django；已包含简单的用户模型和 jAccount 登录流程
 
 ### 安装环境
 
@@ -10,7 +10,7 @@ cd backend
 pip install -r requirements.txt
 
 # 前端
-cd ../frontend
+cd frontend
 npm install
 ```
 
@@ -24,5 +24,6 @@ cd backend
 python manage.py runserver
 
 # 前端
+cd frontend
 npm run dev
 ```
